@@ -1,0 +1,97 @@
+# Node.js に関連する項目
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.vscode/
+
+# バンドルされたファイル（ビルド成果物）
+dist/
+build/
+.temp/
+.cache/
+out/
+output/
+coverage/
+public/*.map
+
+# 環境ファイル（セキュリティ上の理由でバージョン管理しない）
+.env
+.env.local
+.env.*.local
+
+# ログファイル
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# オペレーティングシステムやエディタ固有のファイル
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/
+*.code-workspace
+*.bak
+
+# テンポラリファイルとキャッシュ
+*.tmp
+*.temp
+*.lock
+*.pid
+*.seed
+*.gz
+.cache/
+.pnp/
+.pnp.js
+.parcel-cache/
+.vite/
+
+# サーバサイド用に作成されたファイル
+__pycache__/
+*.py[cod]
+*.out
+*.exe
+*.o
+*.obj
+*.so
+
+# フロントエンドの特定ファイル（TypeScript, Sassなど）
+*.tsbuildinfo
+*.css.map
+*.scss.map
+*.sass.map
+
+# 静的解析ツール
+eslintcache
+stylelintcache
+
+# イメージ最適化用キャッシュ
+images/**/*-resized.*
+
+# ドキュメントビルドツール
+doc/*/**.cache
+doc/.build
+
+# デプロイ用に生成されるファイル（例: Netlify, Vercel, Firebaseなど）
+.netlify/
+.vercel/
+.firebase/
+.now/
+
+# その他
+.idea/
+*.iml
+*.suo
+*.sln
+*.class
+*.jar
+*.war
+*.ear
